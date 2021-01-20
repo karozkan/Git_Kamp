@@ -10,6 +10,7 @@ namespace Metotlar
     {
         public static void Main(string[] args)
         {
+            //
             // string urunAdi = "Elma";
             // double fiyati = 15;
             // string aciklama = "Amasya Elmasi";

@@ -33,10 +33,7 @@ namespace ClassIntro
             kurs4.Egitmen = "Murat Kurtboğan";
             kurs4.IzlenmeOrani = 100;
 
-
-
-
-            //Console.WriteLine(kurs1.KursAdi + " : " + kurs1.Egitmen);
+            // Console.WriteLine(kurs1.KursAdi + " : " + kurs1.Egitmen);
 
             Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };
 
@@ -45,8 +42,7 @@ namespace ClassIntro
                 Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen);
             }
 
-
-            //Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
         }
     }
 

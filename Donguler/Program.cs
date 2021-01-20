@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Donguler
 {
@@ -14,7 +10,7 @@ namespace Donguler
             string kurs2 = "Programlamaya başlangıç için temel kurs";
             string kurs3 = "Java";
             string kurs4 = "Python";
-            string kurs5 = "C+++-";
+            string kurs5 = "C++";
 
             Console.WriteLine(kurs1);
             Console.WriteLine(kurs2);
@@ -22,7 +18,7 @@ namespace Donguler
             Console.WriteLine(kurs4);
             Console.WriteLine(kurs5);
 
-            //array - dizi
+            //  array - dizi
 
             string[] kurslar = new string[] { kurs1,
                 "Programlamaya başlangıç için temel kurs",

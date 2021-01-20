@@ -16,7 +16,7 @@ namespace DegerVeReferansTipler
             int sayi2 = 30;
             sayi1 = sayi2;
             sayi2 = 65;
-            // sayilar1 ??
+            // sayilar1 ???
             Console.WriteLine(sayi1);
 
             int[] sayilar1 = new int[] { 10, 20, 30 };
