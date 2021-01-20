@@ -14,7 +14,7 @@ namespace Donguler
             string kurs2 = "Programlamaya başlangıç için temel kurs";
             string kurs3 = "Java";
             string kurs4 = "Python";
-            string kurs5 = "C++";
+            string kurs5 = "C+++-";
 
             Console.WriteLine(kurs1);
             Console.WriteLine(kurs2);
