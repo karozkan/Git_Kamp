@@ -10,7 +10,7 @@ namespace GenericsIntro
         //constructor
         public MyList() //ctor TabTab
         {
-            items = new T[10];// array in newlenme zorunluluğu var. array referans tip olduğu için
+            items = new T[0];// array in newlenme zorunluluğu var. array referans tip olduğu için
         }
 
         public void Add(T item)
@@ -23,6 +23,14 @@ namespace GenericsIntro
                 items[i] = tempArray[i];
             }
             items[items.Length - 1] = item; //items a ekleme burada gerçekleşir
+        }
+        public int Length // eleman sayısını verir
+        {
+            get { return items.Length; }
+        }
+        public T[] Items
+        {
+            get { return items; }
         }
     }
 }
