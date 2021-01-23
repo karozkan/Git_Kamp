@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{82C6D835-CEE5-4023-BBC0-280C811D6E15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{63620056-7981-43DF-9F57-C1122CFB9B37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{82C6D835-CEE5-4023-BBC0-280C811D6E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82C6D835-CEE5-4023-BBC0-280C811D6E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82C6D835-CEE5-4023-BBC0-280C811D6E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63620056-7981-43DF-9F57-C1122CFB9B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63620056-7981-43DF-9F57-C1122CFB9B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63620056-7981-43DF-9F57-C1122CFB9B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63620056-7981-43DF-9F57-C1122CFB9B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
