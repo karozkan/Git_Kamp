@@ -47,9 +47,20 @@ namespace ClassIntro
     }
 
     class Kurs
-    {
+    { //property: Bir class içerisinde bulunan bazı alanlara 
+      //başka bir class içerisinden her zaman ulaşmak gerekmez. 
+      //Oluşturulan bu private alanlara kontrollü bir şekilde 
+      //erişim sağlanmak için Property tanımlanmaktadır.
         public string KursAdi { get; set; }
-        public string Egitmen { get; set; }
+        public string _Egitmen;
+        public string Egitmen // artık genellikle bu şekilde kullanılmaz
+        {
+            get { return "Sayın " + Egitmen; }
+            set { _Egitmen = value; } 
+        }
         public int IzlenmeOrani { get; set; }
+
+        // Field : alan tanımlamak
+        // public string OgrenciSayisi;
     }
 }
